@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap');
+
+html,body{
+	background: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,button,a,p{
+	margin: 0;
+	padding: 0;
+}
+
+.bg-dark {
+	background-color: green !important;
+}
+.top_bar{
+	border-top: 5px solid #81b300;
+}
+
+
+.social_icon {
+	background: #81b300;
+	padding: 14px 0px;
+	border-radius: 0px 0px 20px 20px;
+}
+.social_icon ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+.social_icon ul li a {
+	background: #1f1f1f;
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+}
+.social_icon ul li a:hover{
+	background: #00acee;
+}
+.navbar {
+	padding: .5rem 0px;
+}
+.nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 300;
+	padding: 13px 0px;
+}
+#navbarSupportedContent .form-control {
+	background: #fff;
+	border-radius: 0;
+	border: none;
+	padding: 20px 12px;
+	border-top: 1px solid #fff;
+}
+.btn.btn-outline-success {
+	background: #fff;
+	border-radius: 0;
+	color: #81b300;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 11px 14px;
+	border: none;
+	border-left: 1px solid #ddd;
+}
+.nav-link:hover {
+	color: #000;
+}
+
+.log a {
+	color: #000;
+	text-decoration: none;
+}
+.form ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+.form ul li a {
+	color: #81b300;
+	text-decoration: none;
+	font-weight: 300;
+	padding: 16px 10px;
+	display: inline-block;
+}
+.header-area {
+	background: #81b300;
+}
+.carousel-indicators li {
+	width: 20px;
+	height: 20px;
+	background-color: #333333;
+	border-radius: 50%;
+}
+.carousel-control-next, .carousel-control-prev {
+	top: 93%;
+	opacity: 1;
+	height: 40px;
+	width: 40px;
+	background: #333;
+	border-radius: 50%;
+	z-index: 16;
+}
+.carousel-control-next {
+	right: 42%;
+}
+
+.carousel-control-prev {
+	left: 42%;
+}
+
+/* Service area */
+
+.service-area{
+	padding: 90px 0px;;
+}
+.single-service{
+	text-align: center;
+}
+.icon i {
+	font-size: 56px;
+	margin-bottom: 30px;
+}
+.service-content h4 {
+	color: #81b300;
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: 400;
+}
+.service-content p {
+	font-size: 15px;
+	font-weight: 300;
+	color: #888888;
+}
+.fas.fa-users {
+	color: #c45f4b;
+}
+.fas.fa-globe-americas {
+	color: #cf9d41;
+}
+.fas.fa-cogs {
+	color: #3d5f12;
+}
+.fas.fa-leaf {
+	color: #7da3b7;
+}
+.card-img, .card-img-top {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+.card {
+	border: none;
+	border-radius: 0;
+}
+.card-body {
+	padding: 19px 0px 10px 0px;
+}
+.card-text {
+	font-weight: 300;
+	color: #888888;
+	font-size: 15px;
+}
+.card-body a {
+	color: #81b300;
+	font-weight: 300;
+	display: inline-block;
+	text-align: right;
+	text-decoration: none;
+	float: right;
+}
+
+.footer-area {
+	padding: 80px 0px;
+	background: #3b3b3b;
+}
+.footer h4 {
+	color: #666666;
+	margin-bottom: 23px;
+	font-size: 16px;
+	font-weight: 300;
+}
+.footer p {
+	color: #999999;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 27px;
+}
+.footer ul li {
+	color: #999999;
+	font-size: 14px;
+	list-style:none;
+	line-height: 26px;
+}
+.list-group-item {
+	border-radius: 0 !important;
+	padding: 6px 0px;
+	border-bottom: 1px solid #484848;
+	background: #3b3b3b;
+}
+.list-group-item a{
+	text-decoration: none;
+	color: #999999;
+}
+.list-group-item:last-child {
+	border-bottom-width: 1px !important;
+}
+.footer > a {
+	color: #81b300;
+	text-transform: capitalize;
+	font-size: 14px;
+	float: right;
+	text-decoration: none;
+}
+.form-control {
+	color: #999999;
+	background-color: #1f1f1f;
+	border: 1px solid #1f1f1f;
+}
+.btn-primary {
+	background-color: #1f1f1f;
+	border-color: #1f1f1f;
+	color: #81b300;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #1f1f1f;
+	border-color: #81b300;
+}
+.form-control:focus,.btn-primary.focus, .btn-primary:focus {
+	background-color: #1f1f1f;
+	border-color: #67b300;
+	box-shadow: none;
+}
+.footer_btm {
+	background: #2e2e2e;
+	color: #737373;
+	padding: 25px 0px;
+}
